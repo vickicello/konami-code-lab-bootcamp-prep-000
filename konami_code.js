@@ -17,7 +17,6 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
       
       if (index === code.length) {
         window.alert("Hurray!");
-        
         index = 0;
       }
     } else {
