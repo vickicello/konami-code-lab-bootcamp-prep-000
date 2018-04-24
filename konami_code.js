@@ -9,7 +9,7 @@ function init() {
     const key = parseInt(e.location || e.detail);
     
     if (key === code[index]) {
-      index++;
+      index+=1;
       
       if (index === code.length) {
         window.alert("Hurray!");
