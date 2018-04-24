@@ -11,7 +11,7 @@ function init() {
       index+=1;
       
       if (index === code.length) {
-        window.alert("Hurray!");
+        alert("Hurray!");
         index = 0;
       }
     } else {
